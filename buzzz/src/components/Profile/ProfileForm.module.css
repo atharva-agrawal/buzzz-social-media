@@ -1,0 +1,27 @@
+.table {
+	padding: 0.5rem;
+}
+
+.label {
+	color: rgb(173, 171, 171);
+	font-size: small;
+}
+
+.input {
+	width: 12rem;
+	height: 2rem;
+	display: block;
+}
+
+.postal {
+	width: 4rem;
+	height: 2rem;
+	display: inline;
+	margin-right: 0.2rem;
+}
+
+.buttonContainer {
+	margin-top: 0.5rem;
+	display: flex;
+	gap: 1rem;
+}

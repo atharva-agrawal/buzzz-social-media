@@ -1,0 +1,58 @@
+.profileContainer {
+	display: flex;
+	flex-direction: column;
+	background-color: rgb(126, 188, 243);
+	border-radius: 1rem;
+}
+
+.coverImg {
+	width: 100%;
+	height: 80%;
+	border-radius: 1rem 1rem 0rem 0rem;
+}
+
+.imgContainer {
+	width: 60rem;
+	height: 10rem;
+}
+
+.profileImg {
+	height: 6rem;
+	width: 6rem;
+	border-radius: 1rem;
+	position: relative;
+	top: -2rem;
+}
+
+.profileInfoContainer {
+	display: flex;
+	flex-direction: column;
+	margin-top: 1rem;
+	gap: 0.5rem;
+	padding: 1rem;
+}
+
+.profileName {
+	font-size: large;
+	font-weight: bold;
+	color: white;
+}
+
+.profileDesignantion {
+	font-size: 0.8rem;
+	color: white;
+}
+
+.profileAddressContainer {
+	display: flex;
+	align-items: center;
+	gap: 0.3rem;
+	font-size: 0.7rem;
+	color: white;
+}
+
+.buttonContainer {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}

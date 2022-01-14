@@ -1,0 +1,145 @@
+.postContainer {
+	display: flex;
+	flex-direction: column;
+	background-color: #b19f9e;
+	padding: 0.3rem;
+	border-radius: 0.5rem;
+}
+
+.postUserContainer {
+	display: flex;
+}
+
+.avatar {
+	height: 1.8rem;
+	width: 1.8rem;
+	border: 0.2rem solid white;
+}
+
+.postProfileInfoContainer {
+	display: flex;
+	flex-direction: column;
+	align-self: center;
+}
+
+.postProfileDate {
+	font-size: 0.7rem;
+}
+
+.postProfileName {
+	font-size: 1rem;
+}
+
+.pendingIcon {
+	margin-left: auto;
+	color: white;
+}
+
+.postContentContainer {
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	padding: 0.3rem;
+}
+
+.postDescription {
+	font-size: 1rem;
+	align-self: flex-start;
+}
+
+.postImg {
+	width: 30rem;
+	border-radius: 0.5rem;
+}
+
+.postActionConatiner {
+	display: flex;
+	gap: 0.3rem;
+}
+
+.postActionIconLike {
+	color: rgb(78, 130, 241);
+}
+
+.postActionIconHeart {
+	color: red;
+}
+
+.postActionCount {
+	font-size: 0.6rem;
+}
+
+.postActionItemsContainer {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.postActionItem {
+	color: grey;
+}
+
+.actionContainer {
+	cursor: pointer;
+	align-items: center;
+}
+
+.postCommentConatiner {
+	display: flex;
+	align-items: center;
+	gap: 0.5rem;
+}
+
+.commentInput {
+	align-self: center;
+	margin-left: 0.5rem;
+	width: 60%;
+	height: 2rem;
+	border-color: transparent;
+	background-color: white;
+	border-radius: 1rem;
+}
+
+.submitButton {
+	height: 2rem;
+	width: 5rem;
+	background-color: #a16e83;
+	color: white;
+	border: transparent;
+	border-radius: 0.3rem;
+	padding: 0.2rem;
+	cursor: pointer;
+}
+
+.container {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+	gap: 2rem;
+	cursor: pointer;
+}
+
+.loadCommentContainer {
+	display: flex;
+	gap: 0.5rem;
+	align-items: flex-start;
+	justify-content: space-between;
+	flex-direction: column;
+	font-size: 0.8rem;
+}
+
+.commentAvatar {
+	height: 1.2rem;
+	width: 1.2rem;
+	border: 0.2rem solid white;
+}
+
+.commentsContainer {
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+
+.comments {
+	list-style: none;
+}
